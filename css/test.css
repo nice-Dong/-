@@ -1,0 +1,242 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+div{
+	width: 100%;
+	height: 100%;
+}
+#div1{
+	background-image:url(../img/halloween1.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%,100%;
+	
+}
+#div2{
+	background-image:url(../img/halloween2.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%,100%;
+	display: none;
+}
+#div3{
+	background-image:url(../img/halloweenMain.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%,100%;
+	display: none;
+}
+#div4{
+	background-image:url(../img/charm7.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%,100%;
+	display: none;
+}
+#title{
+	position: fixed;
+	left: 340px;
+	top: 70px;
+	animation: titleframes 2s infinite;
+}
+#box{
+	position: fixed;
+	left: 320px;
+	bottom: 300px;
+	animation: boxframes 2s infinite;
+}
+#pump{
+	position: fixed;
+	left: 280px;
+	top: 100px;
+}
+#start{
+	position: fixed;
+	left: 380px;
+	bottom: 450px;
+}
+#img1{
+	position: fixed;
+	left: 50px;
+	top: 100px;
+	animation: img1frames 4S infinite;
+}
+#img2{
+	position: fixed;
+	left: 50px;
+	top: 600px;
+	animation: img2frames 2.5s infinite;
+}
+#img3{
+	position: fixed;
+	left: 300px;
+	top: 400px;
+	animation: img3frames 4.5s infinite;
+}
+#img4{
+	position: fixed;
+	left: 500px;
+	top: 50px;
+	animation: img4frames 6S infinite;
+}
+#img5{
+	position: fixed;
+	left: 400px;
+	top: 900px;
+	animation: img5frames 4S infinite;
+}
+#img6{
+	position: fixed;
+	left: 50px;
+	bottom: 350px;
+	animation: img6frames 4S infinite;
+}
+#img7{
+	position: fixed;
+	right: 50px;
+	bottom: 300px;
+	animation: img7frames 4.5s infinite;
+}
+@keyframes titleframes{
+	0%{
+		opacity: 1;
+	}
+	50%{
+		opacity: 0.1;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+@keyframes boxframes{
+	0%{
+		left:320px;
+	}
+	50%{
+		left:370px;
+	}
+	100%{
+		left:320px;
+	}
+}
+@keyframes img1frames{
+	0%{
+		left:50px;
+		top:100px;
+	}
+	33%{
+		left:50px;
+		top:140px;
+	}
+	66%{
+		left:90px;
+		top:120px;
+	}
+	100%{
+		left:50px;
+		top:100px;
+	}
+}
+@keyframes img4frames{
+	0%{
+		left:500px;
+		top:50px;
+	}
+	25%{
+		left:550px;
+		top:300px;
+	}
+	50%{
+		left:550px;
+		top:600px;
+	}
+	75%{
+		left:550px;
+		top:300px;
+	}
+	100%{
+		left:500px;
+		top:50px;
+	}
+}
+@keyframes img7frames{
+	0%{
+		width:142px;
+		height: 166px;
+	}
+	50%{width:14px;
+		height: 16px;
+	}
+	100%{
+		width:142px;
+		height: 166px;
+	}
+}
+@keyframes img3frames{
+	0%{
+		left: 300px;
+	    top: 400px;
+	}
+	50%{
+		left: 200px;
+	    top: 450px;
+	}
+	100%{
+		left: 300px;
+	    top: 400px;
+	}
+}
+@keyframes img2frames{
+	0%{
+		left: 50px;
+	    top: 600px;
+	}
+	50%{
+		left: 100px;
+	    top: 750px;
+	}
+	100%{
+		left: 50px;
+	    top: 600px;
+	}
+}
+@keyframes img5frames{
+	0%{
+		left: 400px;
+	    top: 900px;
+	}
+	33%{
+		left:500px;
+		top:1000px;
+	}
+	66%{
+		left:600px;
+		top:750px;
+	}
+	100%{
+		left:400px;
+		top:900px;
+	}
+}
+@keyframes img6frames{
+	0%{
+		left: 50px;
+	    bottom: 350px;
+		width:142px;
+		height: 166px;
+	}
+	50%{
+		left: 150px;
+	    bottom: 300px;
+		width:213px;
+		height: 243px;
+	}
+	100%{
+		left: 50px;
+	    bottom: 350px;
+		width:142px;
+		height: 166px;
+	}
+}
+
